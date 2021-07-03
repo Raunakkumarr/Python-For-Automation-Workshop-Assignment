@@ -1,3 +1,4 @@
+#This is the assignment of Day 2, that converts all images in this directory to pdf, attaches that pdf to the email and sends email automatically to all the recipients in emailsList.txt file.
 import os
 import img2pdf
 import smtplib
