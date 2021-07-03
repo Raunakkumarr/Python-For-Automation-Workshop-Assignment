@@ -1,3 +1,4 @@
+#this is the 2nd assignment of Day 4, that uses regex to check if the entered library import is of valid format: (import somelibrary) or (import somelibrary as sl) or (from somelibrary import class)
 import  re
 def checkWebsite(text: str):
     regex_string1 = r'^import\s[a-zA-Z0-9]{1,100}$'
