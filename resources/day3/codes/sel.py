@@ -1,3 +1,4 @@
+#This code automatically downloads Google Images of Giraffe (you can change this in the code) using selen ium module.
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
