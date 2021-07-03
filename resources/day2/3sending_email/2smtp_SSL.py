@@ -1,4 +1,4 @@
-
+# This code sends automated email using SSL encryption to a particular reciepient with only the text contents.
 import smtplib
 from email.message import EmailMessage
 
