@@ -1,10 +1,8 @@
-#! python3
-# pw.py
-
+#This code automatically copies the password of your fb or eamil or any other acoount durectly to your clipboard.
 import sys, pyperclip
 
-PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFt',
-             'creatives' : '123456T',               
+PASSWORDS = {'email': 'your_email_password',
+             'fb' : 'your_fb_password',               
              }
 
 
