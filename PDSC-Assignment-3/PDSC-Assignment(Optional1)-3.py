@@ -1,3 +1,5 @@
+#This is the first optional assignment of day 3, this code is to auto-subscribe a youtube channel.
+#The thing to b e considered in this code is that the x and y positions in pyautogui.moveTo varies with your screen resolution.
 import pyautogui
 pyautogui.moveTo(255,1075,duration=2)
 pyautogui.click()
