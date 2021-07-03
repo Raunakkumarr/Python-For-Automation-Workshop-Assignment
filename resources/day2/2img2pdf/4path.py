@@ -1,3 +1,4 @@
+#This code converts all images in a particular directory (not necessarily the current one) to pdf.
 import img2pdf
 import os
 
