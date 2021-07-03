@@ -1,8 +1,9 @@
+#This basic code sends automatic emails to a recipient just in text.
 import os
 import smtplib   #inbuilt
 
-email_add = 'pythonautomationtest1@gmail.com'
-passwd_pass  = 'pythonautomation123'
+email_add = 'your_email_here'
+passwd_pass  = 'your_password_here'
 
 with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.ehlo()
