@@ -1,4 +1,4 @@
-#This basic code sends automatic emails to a recipient just in text.
+#This basic code sends automatic emails using TLS encryption to a recipient just in text.
 import os
 import smtplib   #inbuilt
 
