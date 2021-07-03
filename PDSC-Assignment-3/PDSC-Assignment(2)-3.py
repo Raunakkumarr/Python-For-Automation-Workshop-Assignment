@@ -1,3 +1,4 @@
+#This is the 2nd assignment of day 3, that downloads google images automatically from user input.
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
