@@ -1,3 +1,4 @@
+#This program converts all images in a directory to pdf
 import img2pdf
 import os
 
