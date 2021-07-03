@@ -1,3 +1,4 @@
+#This is the 2nd optional assignment of day 3, and this program is to search google images for an user input and automatically scroll down, and click show more button at the end of the page and automatically scroll down again.
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
