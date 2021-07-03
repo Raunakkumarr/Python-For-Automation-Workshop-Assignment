@@ -1,6 +1,6 @@
 #this is the 2nd assignment of Day 4, that uses regex to check if the entered library import is of valid format: (import somelibrary) or (import somelibrary as sl) or (from somelibrary import class)
 import  re
-def checkWebsite(text: str):
+def checkImport(text: str):
     regex_string1 = r'^import\s[a-zA-Z0-9]{1,100}$'
     regex_string2 = r'^import\s[a-zA-Z0-9]{1,100}\sas\s[a-zA-Z0-9]{1,10}$'
     regex_string3 = r'^from\s[a-zA-Z0-9]{1,100}\simport\s[a-zA-Z0-9]{1,10}$'
@@ -16,4 +16,4 @@ def checkWebsite(text: str):
     else:
         print('This is an invalid import !!!')
 x = input("Import your module: ")
-checkWebsite(x)
+checkImport(x)
