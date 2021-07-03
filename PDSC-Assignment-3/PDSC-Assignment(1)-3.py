@@ -1,3 +1,4 @@
+#This is the 1st assignment of day 3, this program is executed by the windows batch file in this directory which can be called directly from windows run command, and what it does is copies the password of email and other accounts saved in windows path variables directly to clipboard.
 import os
 import sys,pyperclip
 email_pswd = os.environ.get('password')
